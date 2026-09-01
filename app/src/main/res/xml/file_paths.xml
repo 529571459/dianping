@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 相机把照片直接写进 app 私有目录，不碰系统相册，不需要存储权限 -->
+    <files-path name="photos" path="photos/" />
+    <cache-path name="capture" path="capture/" />
+</paths>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色模式下的启动底色和系统栏，跟 Compose 里的 paper 保持一致 -->
+    <style name="Theme.Shidan" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ground_dark</item>
+        <item name="android:statusBarColor">@color/ground_dark</item>
+        <item name="android:navigationBarColor">@color/ground_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
